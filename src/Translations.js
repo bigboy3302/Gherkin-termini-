@@ -8,13 +8,13 @@ const gherkinTerms = [
   { english: 'Background', latvian: 'Konteksts' },
   { english: 'Rule', latvian: 'Rule' },
   { english: 'Scenario', latvian: 'Piemērs' },
+  { english: 'Given', latvian: 'Kad' },
   { english: 'When', latvian: 'Ja' },
   { english: 'Then', latvian: 'Tad' },
   { english: 'And', latvian: 'Un' },
   { english: 'But', latvian: 'Bet' },
   { english: 'Examples', latvian: 'Piemēri' },
   { english: 'Scenario Outline', latvian: 'Scenārija raksts' },
-  { english: 'Given', latvian: 'Kad' },
 ];
 
 const Translations = () => {
