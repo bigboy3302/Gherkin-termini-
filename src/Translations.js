@@ -4,17 +4,17 @@ import TableHead from './TableHead';
 import TableRow from './TableRow';
 
 const gherkinTerms = [
-  { english: 'Feature', latvian: 'Funkcija' },
-  { english: 'Scenario', latvian: 'Scenārijs' },
-  { english: 'Background', latvian: 'Fons' },
-  { english: 'Given', latvian: 'Dota' },
-  { english: 'When', latvian: 'Kad' },
+  { english: 'Feature', latvian: 'Funkcionalitāte' },
+  { english: 'Background', latvian: 'Konteksts' },
+  { english: 'Rule', latvian: 'Rule' },
+  { english: 'Scenario', latvian: 'Piemērs' },
+  { english: 'When', latvian: 'Ja' },
   { english: 'Then', latvian: 'Tad' },
   { english: 'And', latvian: 'Un' },
   { english: 'But', latvian: 'Bet' },
   { english: 'Examples', latvian: 'Piemēri' },
   { english: 'Scenario Outline', latvian: 'Scenārija raksts' },
-  { english: 'Given/When/Then', latvian: 'Dota/Kad/Tad' },
+  { english: 'Given', latvian: 'Kad' },
 ];
 
 const Translations = () => {
