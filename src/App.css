@@ -2,29 +2,29 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/random/1920x1080') no-repeat center center fixed; /* Stils ar fona attēlu un gradientu */
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/random/1920x1080') no-repeat center center fixed; 
     background-size: cover;
-    height: 100vh; /* Pilna augstuma fons */
-    color: black; /* Baltā krāsa tekstam, lai tas labi kontrastētu */
+    height: 100vh;
+    color: black; 
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
-  /* Tabulas stili */
+  
   table {
     border-collapse: collapse;
-    border: 2px solid rgb(140 140 140);
+    border: 2px solid rgb(139 138 101);
     font-family: sans-serif;
     font-size: 1rem;
     letter-spacing: 1px;
-    background-color: rgba(255, 255, 255, 0.8); /* Nedaudz caurspīdīga balta tabula, lai izceltos uz tumša fona */
-    border-radius: 8px; /* Noapaļotas malas tabulai */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Šķērsojoša ēna ap tabulu */
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
     padding: 20px;
   }
   
-  /* Tabulas nosaukuma stils */
+ 
   caption {
     caption-side: bottom;
     padding: 10px;
@@ -32,7 +32,7 @@ body {
     font-size: 1.2rem;
   }
   
-  /* Galvene un kājene */
+
   thead,
   tfoot {
     background-color: rgb(228 240 245);
