@@ -18,17 +18,17 @@ const Translations = () => {
 };
 
 const gherkinTerms = [
-  { english: 'Feature', latvian: 'Funkcionalitāte' },
+  { english: 'Feature', latvian: 'Funkcionālā iezīme' },
   { english: 'Background', latvian: 'Konteksts' },
-  { english: 'Rule', latvian: 'Rule' },
-  { english: 'Scenario', latvian: 'Piemērs' },
+  { english: 'Scenario', latvian: 'Scenārijs' },
+  { english: 'Examples', latvian: 'Piemēri' },
   { english: 'Given', latvian: 'Kad' },
   { english: 'When', latvian: 'Ja' },
   { english: 'Then', latvian: 'Tad' },
   { english: 'And', latvian: 'Un' },
   { english: 'But', latvian: 'Bet' },
-  { english: 'Examples', latvian: 'Piemēri' },
-  { english: 'Scenario Outline', latvian: 'Scenārija raksts' },
+  { english: 'Scenario Outline', latvian: 'Scenārijs pec parauga' },
+  { english: 'or', latvian: 'Vai' },
 ];
 
 
