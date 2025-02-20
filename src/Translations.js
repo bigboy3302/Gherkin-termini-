@@ -3,6 +3,20 @@ import './App.css';  // Nepieciešams, lai pievienotu stilus
 import TableHead from './TableHead';
 import TableRow from './TableRow';
 
+const Translations = () => {
+  return (
+    <table>
+      <caption>Gherkin termini</caption>
+      <TableHead />
+      <tbody>
+        {gherkinTerms.map((term, index) => (
+          <TableRow key={index} english={term.english} latvian={term.latvian} />
+        ))}
+      </tbody>
+    </table>
+  );
+};
+
 const gherkinTerms = [
   { english: 'Feature', latvian: 'Funkcionalitāte' },
   { english: 'Background', latvian: 'Konteksts' },
@@ -17,18 +31,6 @@ const gherkinTerms = [
   { english: 'Scenario Outline', latvian: 'Scenārija raksts' },
 ];
 
-const Translations = () => {
-  return (
-    <table>
-      <caption>Gherkin termini</caption>
-      <TableHead />
-      <tbody>
-        {gherkinTerms.map((term, index) => (
-          <TableRow key={index} english={term.english} latvian={term.latvian} />
-        ))}
-      </tbody>
-    </table>
-  );
-};
+
 
 export default Translations;
