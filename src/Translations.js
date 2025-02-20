@@ -22,12 +22,12 @@ const gherkinTerms = [
   { english: 'Background', latvian: 'Konteksts' },
   { english: 'Scenario', latvian: 'Scenārijs' },
   { english: 'Examples', latvian: 'Piemēri' },
+  { english: 'Scenario Outline', latvian: 'Scenārijs pec parauga' },
   { english: 'Given', latvian: 'Kad' },
   { english: 'When', latvian: 'Ja' },
   { english: 'Then', latvian: 'Tad' },
   { english: 'And', latvian: 'Un' },
   { english: 'But', latvian: 'Bet' },
-  { english: 'Scenario Outline', latvian: 'Scenārijs pec parauga' },
   { english: 'or', latvian: 'Vai' },
 ];
 
